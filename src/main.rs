@@ -1,7 +1,5 @@
-mod advent001a;
-mod advent001b;
+mod advent002b;
 
 fn main() {
-    // advent001a::main();
-    advent001b::main();
+    advent002b::main();
 }

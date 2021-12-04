@@ -2,7 +2,7 @@ use std::fs;
 
 pub fn main() {
     let filename = "inputs/001.txt";
-    let contents = fs::read_to_string(filename).expect("Something went wrong reading the file");
+    let contents = fs::read_to_string(filename).unwrap();
     let split_text = contents.split("\n");
 
     let mut index = 0;
